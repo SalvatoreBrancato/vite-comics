@@ -52,7 +52,7 @@ export default{
 
 <template>
   <div id="nav">
-    <img src="../assets/dc-logo.png" alt="">
+    <img src="/img/dc-logo.png" alt="">
     <ul>
       <li v-for="(element, index) in links"><a href="#">{{ element.nome }}</a></li>
     </ul>
@@ -62,8 +62,8 @@ export default{
 
 <style lang="scss" scoped>
 #nav{
-  width: 100vw;
-  height: 200px;
+  width: 100%;
+  height: 150px;
   background-color: white;
   display: flex;
   align-items: center;

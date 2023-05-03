@@ -18,7 +18,7 @@ export default{
 <style lang="scss" scoped>
 main{
   background-color: black;
-  width: 100vw;
+  width: 100%;
   min-height: 200px;
   h2{
     color: white;
